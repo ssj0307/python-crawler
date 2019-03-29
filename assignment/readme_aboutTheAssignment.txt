@@ -12,7 +12,7 @@ What I am still confused about:
 There are several problems I met in the process of doing this assignment,
 1.The environment. At first I tried to do this work by mysql and django, but there is something wrong with the connections. Considering the data amount is not very huge, I didn’t do so. And I stored the crawled data in python data structure.
 2.I tried to get the news from the first 3 pages in the search page from CNN.com, but it was weird that when I tried to visit:https://edition.cnn.com/search/?size=10&q=%20Donald%20trump&page=3, it still shows “Displaying results 1-10 out of 48020 for Donald trump”. I wonder why it is, maybe I should try to get more pages by imitating clicking the next page. 
-I am still a beginner in this field with great passion, it would be so nice if there is any advice and correction, thanks!
+I am still a beginner in this field with great passion, it would be so nice if there is any advice or correction, thanks!
 
 Running steps:
 Just run crawler.py, it will generate viewpage.html, all the contents are displayed in this webpage.
